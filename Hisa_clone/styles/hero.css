@@ -1,0 +1,292 @@
+.hero {
+  padding-top: 6rem;
+  background-image: url("/hisa_images/in-slide-bg.webp");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mini-sect1,
+.mini-sect2 {
+  height: 65vh;
+}
+
+.mini-sect1 div p {
+  font-size: var(--size-xl);
+  line-height: 5rem;
+}
+
+.mini-sect1 {
+  width: 26vw;
+}
+
+
+.mini-sect2 {
+  width: 85vw;
+  position: relative;
+  background-image: url("/hisa_images/globe-hisa5.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.mini-sect2 .investor {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: fit-content;
+  border: 1px solid var(--clr-light);
+  border-radius: 0.6rem;
+  width: 140px;
+  
+}
+
+.mini-sect2 .inv1 {
+    animation: bouncy 8s infinite ease-in-out;
+    animation-delay: 0s;
+}
+
+.mini-sect2 .inv2 {
+    animation: bouncy 8s infinite ease-in-out;
+    animation-delay: 0.35s;
+}
+
+.mini-sect2 .inv3 {
+    animation: bouncy 8s infinite ease-in-out;
+    animation-delay: 0.7s;
+}
+@keyframes bouncy {
+  0% {
+    transform: translate(0px, 0px);
+  }
+
+  25% {
+    transform: translate(0px, 10px);
+  }
+
+  50% {
+    transform: translate(0px, 0px);
+  }
+
+  75% {
+    transform:  translate(0px, -15px);
+  }
+
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+.mini-sect2 .investor img {
+  width: 5rem;
+  height: 4rem;
+}
+
+.text {
+  position: absolute;
+  left: 4.3rem;
+}
+
+.text__inner {
+  display: inline-flex;
+  gap: 0.5em;
+  font-size: 12px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.text__inner svg {
+  width: 20px;
+  color: greenyellow;
+}
+
+.text p {
+  font-size: 12px;
+}
+
+.inv1,
+.inv2,
+.inv3 {
+  position: absolute;
+}
+
+.inv1 {
+  left: 40rem;
+  top: 18rem;
+}
+
+.inv2 {
+  left: 25rem;
+  top: 8rem;
+  background-color: var(--clr-dark);
+  opacity: 0.8;
+}
+
+.inv3 {
+  left: 45rem;
+  top: 1.5rem;
+}
+
+/* xs */
+@media (max-width: 475px) {
+
+  .hero {
+    padding-top: 25rem;
+    height: 55vh;
+    opacity: 0.5;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .mini-sect2 {
+    display: none;
+  }
+
+  .mini-sect1 {
+    display: flex;
+  }
+
+  .mini-sect1 div p {
+    font-size: var(--size-base);
+    line-height: 2.5rem;
+  }
+}
+
+/* sm */
+@media (max-width: 640px) {
+  .hero {
+    padding-top: 25rem;
+    height: 55vh;
+    opacity: 0.5;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .mini-sect2 {
+    display: none;
+  }
+
+  .mini-sect1 {
+    display: flex;
+  }
+
+  .mini-sect1 div p {
+    font-size: var(--size-lg);
+    line-height: 3rem;
+  }
+}
+
+/* md */
+@media (max-width: 768px) {
+  .hero {
+    padding-top: 15rem;
+    height: 55vh;
+    opacity: 0.5;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .mini-sect2 {
+    display: none;
+  }
+
+  .mini-sect1 {
+    display: flex;
+  }
+
+  .mini-sect1 div p {
+    font-size: var(--size-xl);
+    line-height: 5rem;
+  }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  .hero {
+    padding-top: 25rem;
+    height: 55vh;
+    opacity: 0.5;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .mini-sect1 {
+    display: flex;
+  }
+
+  .mini-sect1 div p {
+    font-size: var(--size-lg);
+    line-height: 3rem;
+  }
+
+  .mini-sect2 {
+    width: 100%;
+    position: relative;
+    background-image: url("/hisa_images/globe-hisa5.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 35vh;
+    top: -15rem;
+  } 
+
+  .mini-sect2 .investor {
+    width: 120px; 
+    height: 4rem;
+  }
+
+  .mini-sect2 .investor img {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .text__inner {
+    gap: 0.2em;
+    font-size: 8px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+  }
+
+  .text__inner svg {
+    width: 15px;
+    color: greenyellow;
+  }
+  
+  .text p {
+    font-size: 12px;
+  }
+  
+  .inv1 {
+    left: 10rem;
+    top: 18rem;
+  }
+  
+  .inv2 {
+    left: 13rem;
+    top: 8rem;
+    background-color: var(--clr-dark);
+    opacity: 0.8;
+  }
+  
+  .inv3 {
+    left: 15rem;
+    top: 1.5rem;
+  }
+}
+
+/* xl */
+/*@media (min-width: 1280px) {
+    
+}
+
+/* 2xl */
+/*@media (min-width: 1536px) {
+    
+}*/

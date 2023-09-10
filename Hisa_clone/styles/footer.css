@@ -1,0 +1,50 @@
+.footer {
+    margin: 30px 0;
+}
+
+.footer .footer__container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__container div {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.footer__container div ul li {
+    padding-bottom: 10px;
+}
+
+.footer__socials div {
+    display: flex;
+}
+
+.footer__last .footer__socials svg {
+    height: 2rem;
+    width: 2rem;
+    fill: white;
+}
+
+.footer__last .footer__socials svg:hover {
+    cursor: pointer;
+}
+
+.footer__last .footer__socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-bottom: 20px;
+}
+
+.footer__risk {
+    margin: 20px 0;
+    border: 1px solid red;
+    padding: 0 10px;
+}
+
+.footer__risk  h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}

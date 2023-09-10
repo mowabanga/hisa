@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://api.fontshare.com/v2/css?f[]=nunito@300,700,400,500&display=swap" rel="stylesheet">
+    <title>Hisa | Clone</title>
+  </head>
+  <body class="">
+    <div class="main-container">
+      <header class="header container">
+        <div class="header__logo">
+          <img src="/hisa_images/hisa_newLogo.png" alt="">
+          <h2><span>Hisa</span></h2>
+        </div>
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="hovered__list">
+              <a href="#">Home</a>
+            </li>
+            <div class="header__svg">
+              <li>
+                <a href="#">Company</a>
+                <ul class="submenu">
+                  <li>About</li>
+                  <li>Products</li>
+                  <li>Careers</li>
+                  <li>Contacts</li>
+                </ul>
+              </li>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+              </svg>    
+            </div>
+            <li>
+              <a href="#">Markets</a>
+            </li>
+            <div class="header__svg">
+              <li>
+                <a href="#">Hisa For</a>
+                <ul class="submenu">
+                  <li>Banks</li>
+                  <li>Telcos</li>
+                  <li>Saccos</li>
+                  <li>Fund Managers</li>
+                </ul>
+              </li>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+              </svg>   
+            </div>
+            <div class="header__svg">
+              <li>
+                <a href="#">Resources</a>
+                <ul class="submenu">
+                  <li>Help Center</li>
+                  <li>Customers</li>
+                  <li>Roadmap</li>
+                  <li>Legal Docs</li>
+                </ul>
+              </li>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+              </svg>
+            </div>
+          </ul>
+        </nav>
+        <div class="header__sign">
+          <button class="login">Login</button>
+          <div class="separator"></div>
+          <button>Sign Up</button>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" id="theme-toggle" class="sun">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
+          </svg>
+          
+        </div>
+      </header>
+      <section class="hero container">
+        <!-- The really clustered code is cause I used flexbox, if replaced with grid, I know it'll take fewer lines-->
+        <div class="mini-sect1">
+          <div>
+            <p>Borderless</p>
+            <p>Investments</p>
+            <p>For</p>
+            <p>Africa</p>
+          </div>
+        </div>
+        <div class="mini-sect2">
+          <div class="investor inv1">
+            <img src="/hisa_images/investor1(1).png">
+            <div class="text">
+              <div class="text__inner">
+                <p>9%</p>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18L9 11.25l4.306 4.307a11.95 11.95 0 015.814-5.519l2.74-1.22m0 0l-5.94-2.28m5.94 2.28l-2.28 5.941" />
+                </svg>
+              </div>
+              <p>profit gain</p>
+            </div>
+          </div>
+          <div class="investor inv2">
+            <img src="/hisa_images/investor2(1).png">
+            <div class="text">
+              <div class="text__inner">
+                <p>15%</p>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18L9 11.25l4.306 4.307a11.95 11.95 0 015.814-5.519l2.74-1.22m0 0l-5.94-2.28m5.94 2.28l-2.28 5.941" />
+                </svg>
+              </div>
+              <p>profit gain</p>
+            </div>
+          </div>
+          <div class="investor inv3">
+            <img src="/hisa_images/investor3(1).png">
+            <div class="text">
+              <div class="text__inner">
+                <p>2%</p>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="red">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6L9 12.75l4.286-4.286a11.948 11.948 0 014.306 6.43l.776 2.898m0 0l3.182-5.511m-3.182 5.51l-5.511-3.181" />
+                </svg>
+              </div>
+              <p>floating loss</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="accolades container">
+        <div class="accolades__container">
+          <div class="accolades__cont1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><defs><style>.cls-1{fill:white}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="layer_1-2" data-name="layer 1"><path class="cls-1" d="M0 46h48v2H0zM3 42h42v2H3zM3 20h42v2H3zM47 18H1a1 1 0 0 1-.57-1.82l23-16a1 1 0 0 1 1.14 0l23 16A1 1 0 0 1 47 18zM4.19 16h39.62L24 2.22z"/><path class="cls-1" d="M24 14a4 4 0 1 1 4-4 4 4 0 0 1-4 4zm0-6a2 2 0 1 0 2 2 2 2 0 0 0-2-2zM24 39a4 4 0 0 1-4-4h2a2 2 0 1 0 2-2 4 4 0 1 1 4-4h-2a2 2 0 1 0-2 2 4 4 0 0 1 0 8z"/><path class="cls-1" d="M23 38h2v3h-2zM23 23h2v3h-2zM30 31h2v2h-2zM16 31h2v2h-2zM11 23h2v18h-2zM6 23h2v18H6zM35 23h2v18h-2zM40 23h2v18h-2z"/></g></g></svg>
+            <p>Fully Regulated</p>
+          </div>
+          <div>
+            <p>We work with licensed and regulated partners<br/> to ensure untimate safety of investor funds.</p>
+          </div>
+        </div>
+
+        <div class="accolades__container2">
+          <div class="accolades__cont1">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="0.7" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
+            </svg>
+            <p>6,000+ Instruments</p>
+          </div>
+          <p>Diversify your investments with stocks, ETFs,<br /> REITs, MMFs, Commodities, Currencies and more</p>
+        </div>
+      </section>
+      <section class="info container">
+        <div class="info__desc">
+          <h2>Empower Your Portfolio With Precision Trading</h2>
+          <p>Diversify your investments<br /> with a wide range of financial products including:<br/>  Fractional shares, Currencies, Commodities, ETFs and OTCs.</p>
+        </div>
+        <div class="info__container">
+          <div class="info__symbols">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m-3-2.818l.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <div class="paragraph">
+              <p>
+                Invest in different pair of <span>Currencies </span>globally using our trading tools and analytics
+              </p>
+            </div>
+          </div>
+
+          <div class="info__symbols">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" class="bars" fill="none" stroke-width="1" stroke="white"><g data-name="gold bar"><path d="m30 26.73-.56-2a1 1 0 0 0-1.24-.69 1 1 0 0 0-.68 1.24l.19.69H17.33l1.42-5h7.5l.32 1.13a1 1 0 1 0 1.92-.55L28 19.72a1 1 0 0 0-1-.72h-3.26l-1.94-6.29a1 1 0 0 0-.95-.71h-4a1 1 0 1 0 0 2h3.21l1.54 5H10.35l1.54-5h1.27a1 1 0 0 0 0-2h-2a1 1 0 0 0-1 .71L8.26 19H5a1 1 0 0 0-1 .73l-2 7a1 1 0 0 0 .16.87A1 1 0 0 0 3 28h3.08a1 1 0 0 0 0-2H4.33l1.42-5h7.5l1.42 5h-4.56a1 1 0 0 0 0 2H29a1 1 0 0 0 .8-.4 1 1 0 0 0 .2-.87zM16.67 21 16 23.36 15.33 21zM7.29 11.71a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42l-2-2a1 1 0 0 0-1.42 1.42zM24 12a1 1 0 0 0 .71-.29l2-2a1 1 0 0 0-1.42-1.42l-2 2a1 1 0 0 0 0 1.42A1 1 0 0 0 24 12zM16 9a1 1 0 0 0 1-1V5a1 1 0 0 0-2 0v3a1 1 0 0 0 1 1zM10.6 8.8a1 1 0 0 0 .94.68 1.26 1.26 0 0 0 .33-.05 1 1 0 0 0 .62-1.27l-1-2.84A1 1 0 1 0 9.63 6zM20.19 9.36a1.25 1.25 0 0 0 .32.05 1 1 0 0 0 .95-.68l1-2.84a1 1 0 0 0-1.89-.64l-1 2.84a1 1 0 0 0 .62 1.27z"/></g></svg>
+            <div class="paragraph">
+              <p>
+                Harness the Market's Potential with <span>ETFs</span>. Let Your Money Work for You! 
+              </p>
+            </div>
+          </div>
+
+          <div class="info__symbols">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><defs><style>.cls-1{fill:#2c435e}.cls-2{fill:#374f68}</style></defs><g id="Oil_Barrel" data-name="Oil Barrel"><path class="cls-1" d="M9 5h30v10H9zM39 29V19H9v10zM9 33h30v10H9z"/><path class="cls-2" d="M39 33v8H14a3 3 0 0 1-3-3v-5zM39 19v8H14a3 3 0 0 1-3-3v-5zM39 5v8H14a3 3 0 0 1-3-3V5z"/><path class="cls-1" d="M39 5H9a2 2 0 0 1 0-4h30a2 2 0 0 1 0 4zM41 45a2 2 0 0 1-2 2H9a2 2 0 0 1 0-4h30a2 2 0 0 1 2 2z"/><path class="cls-2" d="M41 45H11a2 2 0 0 1-2-2h30a2 2 0 0 1 2 2z"/><path class="cls-1" d="M7.59 29.59A2 2 0 0 0 9 33h30a2 2 0 0 0 0-4c-32.76 0-30.6-.24-31.41.59zM40.41 18.41A2 2 0 0 0 39 15H9a2 2 0 0 0 0 4c32.76 0 30.6.24 31.41-.59z"/><path class="cls-2" d="M41 31H11a2 2 0 0 1-2-2h30a2 2 0 0 1 2 2zM41 17H11a2 2 0 0 1-2-2h30a2 2 0 0 1 2 2zM41 3H11a2 2 0 0 1-2-2h30a2 2 0 0 1 2 2z"/><path d="M33 24a9 9 0 1 1-14.28-7.28A9 9 0 0 1 33 24z" style="fill:#dad7e5"/><path d="M33 24a8.94 8.94 0 0 1-1.72 5.28 9 9 0 0 1-12.56-12.56A9 9 0 0 1 33 24z" style="fill:#edebf2"/><path class="cls-2" d="M27 26a3 3 0 0 1-6 0c0-1.45 2.29-5.72 3-7 0 0 3 5.34 3 7z"/><path d="M27 26.24A3 3 0 0 1 22 24c0-1.17 1.31-3.75 2-5 2.57 4.58 3.12 6.69 3 7.24z" style="fill:#425b72"/></g></svg>
+            <div class="paragraph">
+              <p>
+                Unlock the World of Wealth with <span>Commodities</span>. Your Path to Diversified Prosperity!
+              </p>
+            </div>
+          </div>
+          
+          <div class="info__container">
+            <div class="info__symbols">
+              <svg version="1.1" id="education_x5F_icons_1_" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 128 128" style="enable-background:new 0 0 128 128" xml:space="preserve"><style>.st0{display:none}.st1{display:inline}.st2,.st3{fill:white}</style><g id="row2_1_"><g id="certificate_1_"><g id="icon_10_"><path class="st2" d="M33.4 27.8v2.8H64v-2.8H33.4zm0 27.9v2.8h61.2v-2.8H33.4zm0 16.6v2.8h61.2v-2.8H33.4zm0 8.4v2.8h61.2v-2.8H33.4zM108.5 0h-89c-1.5 0-2.8 1.2-2.8 2.8v105.7c0 1.5 1.2 2.8 2.8 2.8H64v-5.6H22.3V5.6h83.5v100.2H103v5.6h5.6c1.5 0 2.8-1.2 2.8-2.8V2.8c-.1-1.6-1.3-2.8-2.9-2.8zM33.4 39v2.8h61.2V39H33.4zm0 25v2.8h61.2V64H33.4zm0-16.7v2.8h61.2v-2.8H33.4zm0-27.8v2.8H64v-2.8H33.4z"/><path class="st2" d="M95.2 109.6c1.6-2.1 2.6-4.8 2.6-7.7C97.8 94.8 92 89 84.9 89 77.7 89 72 94.8 72 101.9c0 2.9 1 5.6 2.6 7.7L66.8 128c.3-.3 2.7-2.7 5.5-2.7 2.5 0 5.6 2.8 5.6 2.8l6.9-13.3 7 13.3s2.4-2.8 5.6-2.8c2.3 0 5.6 2.8 5.6 2.8l-7.8-18.5zm-16.1-10c-1.7-1.9-1.4-4.9.5-6.6 1.9-1.7 4.8-1.5 6.4.5 1.6 1.9-3.7 1.2-5.6 2.9-1.9 1.6.3 5.1-1.3 3.2zm4.7 10.1c-1.6-1.9 3.7-1.2 5.6-2.9 1.9-1.7-.3-5.2 1.3-3.2 1.7 1.9 1.4 4.9-.5 6.6-1.9 1.6-4.8 1.4-6.4-.5z"/></g></g></g></svg>
+              <div class="paragraph">
+                <p>
+                  Seize Opportunities, Minimize Risks, and Maximize Returns by invesing in our <span>CFDs</span> tailored just for you.
+                </p>
+              </div>
+            </div>
+        </div>
+        </div>
+        <div class="sect3">
+          <p><a href="#">See more Instruments</a></p>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
+          </svg>
+          
+        </div>
+        
+      </section>
+      <section class="goodies container">
+        <!-- Grid layout, pyscheeeeeeeeee, more flexbox -->
+        <div class="goodies__container"> 
+          <div class="goodies__text">
+            <h3>Free Access To Hisa App</h3>
+          </div>
+          <div class="goodies__images">
+            <img src="/public/hisa_images/IMG_20230906_134336_0(1).png" alt="">
+          </div>
+        </div>
+        <div class="goodies__container"> 
+          <div class="goodies__images">
+            <svg fill=var(--clr-prpl-light)  xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M256 48C141.1 48 48 141.1 48 256v40c0 13.3-10.7 24-24 24s-24-10.7-24-24V256C0 114.6 114.6 0 256 0S512 114.6 512 256V400.1c0 48.6-39.4 88-88.1 88L313.6 488c-8.3 14.3-23.8 24-41.6 24H240c-26.5 0-48-21.5-48-48s21.5-48 48-48h32c17.8 0 33.3 9.7 41.6 24l110.4 .1c22.1 0 40-17.9 40-40V256c0-114.9-93.1-208-208-208zM144 208h16c17.7 0 32 14.3 32 32V352c0 17.7-14.3 32-32 32H144c-35.3 0-64-28.7-64-64V272c0-35.3 28.7-64 64-64zm224 0c35.3 0 64 28.7 64 64v48c0 35.3-28.7 64-64 64H352c-17.7 0-32-14.3-32-32V240c0-17.7 14.3-32 32-32h16z"/></svg>
+          </div>
+          <div class="goodies__text">
+            <h3>24/7 customer care support</h3>
+          </div>
+        </div>
+        <div class="goodies__container"> 
+          <div class="goodies__text">
+            <h3>Advanced Technical Analysis</h3>
+          </div>
+          <div class="goodies__images">
+            <img src="https://www.simtrade.fr/blog_simtrade/wp-content/uploads/2023/08/img_Order_book_buy_sell_above_each_other.png" alt="">
+          </div>
+        </div>
+      </section>
+      <section class="howTo container">
+        <div class="howTo__header">
+          <h2>Begin Investing in 3 easy steps</h2>
+          <div>
+            <img src="https://www.hisa.co/alt-assets/img/in-app-store.svg" alt="">
+            <img src="https://www.hisa.co/alt-assets/img/in-google-play.svg" alt="">
+          </div>
+        </div>
+        <div class="howTo__desc">
+          <div class="howTo__container">
+            <div>
+              <h2>1</h2>
+            </div>
+            <div class="howTo__paragraph">
+              <h3>Register</h3>
+              <p>Sign up with only your phone number and </p>
+              <p>get verified within 5 minutes</p>
+            </div>
+          </div>
+
+          <div class="howTo__container">
+            <div>
+              <h2>2</h2>
+            </div>
+            <div class="howTo__paragraph">
+              <h3>Deposit</h3>
+              <p>Fund your account either by mobile</p> 
+              <p>money or bank transfer.</p>
+            </div>
+          </div>
+
+          <div class="howTo__container">
+            <div>
+              <h2>3</h2>
+            </div>
+            <div class="howTo__paragraph">
+              <h3>Invest</h3>
+              <p>Access over 6000+ assets across all asset</p>
+              <p>classes on the app.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer container">
+        <div class="footer__container">
+          <div>
+            <h2>Overview</h2>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Our Products</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Help Center</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h2>B2B</h2>
+            <ul>
+              <li><a href="#">Banks</a></li>
+              <li><a href="#">Telcos</a></li>
+              <li><a href="#">SACCOS</a></li>
+              <li><a href="#">Fund Manager</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h2>Assets</h2>
+            <ul>
+              <li><a href="#">Stocks</a></li>
+              <li><a href="#">ETFs</a></li>
+              <li><a href="#">Currencies</a></li>
+              <li><a href="#">CFDs</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__last">
+            <h2>Get in Touch</h2>
+            <p>We are delighted to assist<br/> you on
+            your investment<br/> journey</p>
+            <a href="#">hello@xyz.com</a>
+            <div class="footer__socials">
+              <div>
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 48 48">
+                  <path d="M 16.5 5 C 10.159 5 5 10.159 5 16.5 L 5 31.5 C 5 37.841 10.159 43 16.5 43 L 31.5 43 C 37.841 43 43 37.841 43 31.5 L 43 16.5 C 43 10.159 37.841 5 31.5 5 L 16.5 5 z M 34 12 C 35.105 12 36 12.895 36 14 C 36 15.104 35.105 16 34 16 C 32.895 16 32 15.104 32 14 C 32 12.895 32.895 12 34 12 z M 24 14 C 29.514 14 34 18.486 34 24 C 34 29.514 29.514 34 24 34 C 18.486 34 14 29.514 14 24 C 14 18.486 18.486 14 24 14 z M 24 17 A 7 7 0 1 0 24 31 A 7 7 0 1 0 24 17 z"></path>
+                  </svg>
+              </div>
+              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
+                <path d="M 34.21875 5.46875 C 28.238281 5.46875 23.375 10.332031 23.375 16.3125 C 23.375 16.671875 23.464844 17.023438 23.5 17.375 C 16.105469 16.667969 9.566406 13.105469 5.125 7.65625 C 4.917969 7.394531 4.597656 7.253906 4.261719 7.277344 C 3.929688 7.300781 3.632813 7.492188 3.46875 7.78125 C 2.535156 9.386719 2 11.234375 2 13.21875 C 2 15.621094 2.859375 17.820313 4.1875 19.625 C 3.929688 19.511719 3.648438 19.449219 3.40625 19.3125 C 3.097656 19.148438 2.726563 19.15625 2.425781 19.335938 C 2.125 19.515625 1.941406 19.839844 1.9375 20.1875 L 1.9375 20.3125 C 1.9375 23.996094 3.84375 27.195313 6.65625 29.15625 C 6.625 29.152344 6.59375 29.164063 6.5625 29.15625 C 6.21875 29.097656 5.871094 29.21875 5.640625 29.480469 C 5.410156 29.742188 5.335938 30.105469 5.4375 30.4375 C 6.554688 33.910156 9.40625 36.5625 12.9375 37.53125 C 10.125 39.203125 6.863281 40.1875 3.34375 40.1875 C 2.582031 40.1875 1.851563 40.148438 1.125 40.0625 C 0.65625 40 0.207031 40.273438 0.0507813 40.71875 C -0.109375 41.164063 0.0664063 41.660156 0.46875 41.90625 C 4.980469 44.800781 10.335938 46.5 16.09375 46.5 C 25.425781 46.5 32.746094 42.601563 37.65625 37.03125 C 42.566406 31.460938 45.125 24.226563 45.125 17.46875 C 45.125 17.183594 45.101563 16.90625 45.09375 16.625 C 46.925781 15.222656 48.5625 13.578125 49.84375 11.65625 C 50.097656 11.285156 50.070313 10.789063 49.777344 10.445313 C 49.488281 10.101563 49 9.996094 48.59375 10.1875 C 48.078125 10.417969 47.476563 10.441406 46.9375 10.625 C 47.648438 9.675781 48.257813 8.652344 48.625 7.5 C 48.75 7.105469 48.613281 6.671875 48.289063 6.414063 C 47.964844 6.160156 47.511719 6.128906 47.15625 6.34375 C 45.449219 7.355469 43.558594 8.066406 41.5625 8.5 C 39.625 6.6875 37.074219 5.46875 34.21875 5.46875 Z M 34.21875 7.46875 C 36.769531 7.46875 39.074219 8.558594 40.6875 10.28125 C 40.929688 10.53125 41.285156 10.636719 41.625 10.5625 C 42.929688 10.304688 44.167969 9.925781 45.375 9.4375 C 44.679688 10.375 43.820313 11.175781 42.8125 11.78125 C 42.355469 12.003906 42.140625 12.53125 42.308594 13.011719 C 42.472656 13.488281 42.972656 13.765625 43.46875 13.65625 C 44.46875 13.535156 45.359375 13.128906 46.3125 12.875 C 45.457031 13.800781 44.519531 14.636719 43.5 15.375 C 43.222656 15.578125 43.070313 15.90625 43.09375 16.25 C 43.109375 16.65625 43.125 17.058594 43.125 17.46875 C 43.125 23.71875 40.726563 30.503906 36.15625 35.6875 C 31.585938 40.871094 24.875 44.5 16.09375 44.5 C 12.105469 44.5 8.339844 43.617188 4.9375 42.0625 C 9.15625 41.738281 13.046875 40.246094 16.1875 37.78125 C 16.515625 37.519531 16.644531 37.082031 16.511719 36.683594 C 16.378906 36.285156 16.011719 36.011719 15.59375 36 C 12.296875 35.941406 9.535156 34.023438 8.0625 31.3125 C 8.117188 31.3125 8.164063 31.3125 8.21875 31.3125 C 9.207031 31.3125 10.183594 31.1875 11.09375 30.9375 C 11.53125 30.808594 11.832031 30.402344 11.816406 29.945313 C 11.800781 29.488281 11.476563 29.097656 11.03125 29 C 7.472656 28.28125 4.804688 25.382813 4.1875 21.78125 C 5.195313 22.128906 6.226563 22.402344 7.34375 22.4375 C 7.800781 22.464844 8.214844 22.179688 8.355469 21.746094 C 8.496094 21.3125 8.324219 20.835938 7.9375 20.59375 C 5.5625 19.003906 4 16.296875 4 13.21875 C 4 12.078125 4.296875 11.03125 4.6875 10.03125 C 9.6875 15.519531 16.6875 19.164063 24.59375 19.5625 C 24.90625 19.578125 25.210938 19.449219 25.414063 19.210938 C 25.617188 18.96875 25.695313 18.648438 25.625 18.34375 C 25.472656 17.695313 25.375 17.007813 25.375 16.3125 C 25.375 11.414063 29.320313 7.46875 34.21875 7.46875 Z"></path>
+                </svg>
+              <div>
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 32 32">
+                  <path d="M 16 4 C 9.3844276 4 4 9.3844276 4 16 C 4 22.615572 9.3844276 28 16 28 C 22.615572 28 28 22.615572 28 16 C 28 9.3844276 22.615572 4 16 4 z M 16 6 C 21.534692 6 26 10.465308 26 16 C 26 21.027386 22.311682 25.161277 17.488281 25.878906 L 17.488281 18.916016 L 20.335938 18.916016 L 20.783203 16.023438 L 17.488281 16.023438 L 17.488281 14.443359 C 17.488281 13.242359 17.882859 12.175781 19.005859 12.175781 L 20.810547 12.175781 L 20.810547 9.6523438 C 20.493547 9.6093438 19.822688 9.515625 18.554688 9.515625 C 15.906688 9.515625 14.355469 10.913609 14.355469 14.099609 L 14.355469 16.023438 L 11.632812 16.023438 L 11.632812 18.916016 L 14.355469 18.916016 L 14.355469 25.853516 C 9.6088556 25.070647 6 20.973047 6 16 C 6 10.465308 10.465308 6 16 6 z"></path>
+                  </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="footer__risk">
+          <h2>Risk Disclosure</h2>
+          <p>All Investing and trading carries risk. </p><br>
+
+          <p>
+            Hisa does not provide investment advice. Investors should do their own their own research before making any investment decisions. The services and securities provided by Hisa may not be suitable for all customers and, if you have any doubts, you should seek advice from an independent financial adviser.
+          </p> <br>
+              
+            <p>
+              Hisa offers securities trading through licensed market intermediaries; Kenyan stocks trading are provided by Faida Investment Bank, licensed and regulatedd by the Capital Markets Authority of Kenya. US securities are provided by DriveWealth LLC, a regulated member of FINRA/SIPC. DriveWealth, LLC is a registered broker dealer, member of FINRA and SIPC
+            </p>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
